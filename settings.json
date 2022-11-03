@@ -1,0 +1,29 @@
+{
+    "cmake.configureOnOpen": true,
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Ayu Light",
+    "workbench.preferredDarkColorTheme": "Ayu Dark",
+    "workbench.colorTheme": "Ayu Light",
+    "git.confirmSync": false,
+    "gitHistory.sideBySide": true,
+    "git.openAfterClone": "always",
+    "git.mergeEditor": true,
+    "editor.fontSize": 14,
+    "scm.diffDecorationsGutterVisibility": "hover",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.sideBar.location": "right",
+    "editor.wordWrap": "on",
+    "editor.scrollBeyondLastLine": false,
+    "telemetry.telemetryLevel": "off",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[git-commit]": {
+        "editor.acceptSuggestionOnCommitCharacter": true
+    },
+    "vscode-pets.petColor": "black"
+}
