@@ -12,6 +12,9 @@
     "git.openAfterClone": "always",
     "git.mergeEditor": true,
     "editor.fontSize": 14,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "scm.diffDecorationsGutterVisibility": "hover",
     "workbench.editor.untitled.hint": "hidden",
     "editor.scrollbar.horizontal": "hidden",
@@ -25,5 +28,68 @@
     "[git-commit]": {
         "editor.acceptSuggestionOnCommitCharacter": true
     },
-    "vscode-pets.petColor": "black"
+    "vscode-pets.petColor": "black",
+    "explorer.confirmDelete": false,
+    "git.ignoreRebaseWarning": true,
+    "gitblame.inlineMessageFormat": "- ${author.name} (${time.ago})",
+    "gitblame.inlineMessageMargin": 1,
+    "gitblame.ignoreWhitespace": true,
+    "gitblame.statusBarMessageClickAction": "Open tool URL",
+    "gitblame.statusBarMessageFormat": "${author.name} (${time.ago})",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "task.slowProviderWarning": true,
+    "githubPullRequests.fileListLayout": "tree",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "workbench.colorCustomizations": {}
 }

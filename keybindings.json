@@ -1,23 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "alt+h",
-        "command": "git.viewFileHistory"
-    },
-    {
-        "key": "alt+h",
-        "command": "-git.viewFileHistory"
-    },
-    {
-        "key": "alt+g",
-        "command": "git.viewHistory"
-    },
-    {
-        "key": "alt+l",
-        "command": "git.viewLineHistory"
-    },
-    {
-        "key": "shift+cmd+r",
+        "key": "shift+alt+r",
         "command": "workbench.action.openRecent"
     },
     {
@@ -25,19 +9,27 @@
         "command": "-workbench.action.openRecent"
     },
     {
-        "key": "alt+a",
+        "key": "alt+s",
         "command": "git.stage"
     },
     {
-        "key": "alt+s",
+        "key": "alt+u",
+        "command": "git.unstage"
+    },
+    {
+        "key": "alt+c",
         "command": "git.commitStaged"
     },
     {
-        "key": "alt+d",
+        "key": "alt+p",
         "command": "git.push"
     },
     {
         "key": "alt+f",
+        "command": "git.fetch"
+    },
+    {
+        "key": "alt+g",
         "command": "git.pull"
     },
     {
@@ -113,7 +105,7 @@
         "command": "-workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "alt+c",
+        "key": "alt+v",
         "command": "workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
@@ -121,5 +113,14 @@
         "key": "cmd+k f",
         "command": "-workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key":     "alt+z",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key":     "alt+z",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
     }
 ]
