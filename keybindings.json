@@ -9,30 +9,6 @@
         "command": "-workbench.action.openRecent"
     },
     {
-        "key": "alt+s",
-        "command": "git.stage"
-    },
-    {
-        "key": "alt+u",
-        "command": "git.unstage"
-    },
-    {
-        "key": "alt+c",
-        "command": "git.commitStaged"
-    },
-    {
-        "key": "alt+p",
-        "command": "git.push"
-    },
-    {
-        "key": "alt+f",
-        "command": "git.fetch"
-    },
-    {
-        "key": "alt+g",
-        "command": "git.pull"
-    },
-    {
         "key": "cmd+1",
         "command": "workbench.action.openEditorAtIndex1"
     },
@@ -105,7 +81,7 @@
         "command": "-workbench.action.openEditorAtIndex9"
     },
     {
-        "key": "alt+v",
+        "key": "alt+c",
         "command": "workbench.action.closeFolder",
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
@@ -115,12 +91,59 @@
         "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
     },
     {
-        "key":     "alt+z",
+        "key":     "alt+q",
         "command": "workbench.action.terminal.focus"
     },
     {
-        "key":     "alt+z",
+        "key":     "alt+q",
         "command": "workbench.action.focusActiveEditorGroup",
         "when":    "terminalFocus"
+    },
+    {
+        "key": "cmd+o",
+        "command": "-workbench.action.files.openFileFolder",
+        "when": "isMacNative && openFolderWorkspaceSupport"
+    },
+    { 
+        "key": "alt+1", 
+        "command": "workbench.action.focusLeftGroup" 
+    },
+    { 
+        "key": "alt+2", 
+        "command": "workbench.action.focusAboveGroup" 
+    },
+    { 
+        "key": "alt+3", 
+        "command": "workbench.action.focusBelowGroup" 
+    },
+    { 
+        "key": "alt+4", 
+        "command": "workbench.action.focusRightGroup" 
+    },
+    {
+        "key": "cmd+o",
+        "command": "-workbench.action.files.openFolderViaWorkspace",
+        "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+    },
+    {
+        "key": "cmd+o",
+        "command": "-workbench.action.files.openFile",
+        "when": "false"
+    },
+    {
+        "key": "cmd+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "cmd+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
     }
 ]

@@ -91,5 +91,6 @@
             "italic": false
         }
     ],
-    "workbench.colorCustomizations": {}
+    "workbench.colorCustomizations": {},
+    "gitmoji.showEmojiCode": true
 }
